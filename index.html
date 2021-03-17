@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<htm>
+  <head>
+    <meta charset="utf-8"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <title>Estadística Matemática</title>
+    <script src="https://kit.fontawesome.com/62a0df47f0.js" crossorigin="anonymous"></script>
+<meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="icon/jpg" href="logo.png">
+  </head>
+  <body>
+    <div class="main-div">
+        <div class="quiz-app">
+        <div class="start" id="start" style="display: block;">
+        <img src="logo.png" height="120px" width="120px" class="il"/>
+        <h1 class="app">Estadística Matemática</h1>
+        <p id="code">&copy;By Jose Fiestas
+        </p>
+        </div>
+          <div class="quiz" id="quiz-secreen" style="display:none;">          
+            <div class="time-bar">
+            <div class="time-left" id="timeLeft">
+            
+            </div>
+          </div>
+          <div class="question-no">
+            <h3 class="q-text">Questions<span id="currentQuestion"> 1</span> / <span id="totalQuestions"> 10</span></h3>
+            <h3 id="dots">.............................................................</h3>
+       </div>
+          <div class="qus">
+            <h1 id="question">Who is the first child of the john doe?</h1>
+
+          </div>
+          <div class="choices">
+            <button class="btn" id="opt1">Mark Angel</button>
+            <button class="btn" id="opt2">Mark Angel</button>
+            <button class="btn" id="opt3">Mark Angel</button>
+            <button class="btn" id="opt4">Mark Angel</button>
+          </div>
+          <div class="next-btn">
+            <button id="next">Next</button>
+          </div>
+        </div>
+        <div class="result" id="resultSecreen" style="display: none;">
+           <img src="logo.png" height="120px" width="120px" class="il"/>
+        <h1 class="app"> Puntos: <span id="score">6</span></h1>
+        <p id="code">&copy; By Jose Fiestas</p>
+        <a class="reload" href="javascript:location.reload()"><i class="fas fa-redo"></i></a>
+
+
+        </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</htm>
